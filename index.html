@@ -1,0 +1,436 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<!-- head can have these <style><base><link><meta><script><noscript> -->
+<!--A <meta> viewport element gives the browser instructions on how to control the page's dimensions and scaling.-->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>learning HTML</title> 
+  <!-- <base href = "http://www.tutorialspoint.com" /> -->
+    <!-- There can be at maximum one <base> element in a document, and it must be inside the <head> element. Once the base is set then all subsequent relative links will use that URL as a starting point. -->
+    <!-- base is commented out because images cant be  fetched from pc location -->
+</head>
+<body>
+    <h1>I am Noob in JS</h1>
+    <h3 title = "Hello HTML!" style="background-color:crimson; color:rgb(253, 250, 250); border: 2px solid Violet">Titled Heading Tag Example</h3> <!-- hover on the color to change more color. COLOR is text color -->
+    <p style="font-family:'Courier New', Courier, monospace;font-size:200%;"> This is font family check .</p>
+    <hr> <hr/> <!--this gives a page division line-->
+
+    <nav>
+            <a href="/html/">HTML</a> |
+            <a href="/css/">CSS</a> |
+            <a href="/js/">JavaScript</a> |
+            <a href="/jquery/">jQuery</a>
+            </nav>
+ <pre>
+
+</pre>    
+    <a href="#A">press here to go to LISTS</a>
+    <div><br><br></div>
+
+<header> header tag keeps multiple h1 tags</header>   
+<br>
+    <img src = "/images/html.gif" /> <!-- checking use of base link -->
+   
+    <!--
+    <p>this is a dummy paragraph.</p>
+    <p>this is a dummy paragraph 2.</p>
+    helllooo....
+    hi
+    <br> breaking line<br>
+    <center>sfsfgsgfg</center>
+    <center>ffffffff</center>
+
+    <center><p>i am here with pp inside center</p>
+        <p>i am also here with pp in same center<br>so what</p>
+    </center>
+
+    <center>i am just here with same center and br<br> thank you</center>
+-->
+<p align = "left">This is left aligned</p> 
+      <p align = "center">This is center aligned</p> 
+      <p align = "right">This is right aligned</p> 
+      <p style="text-align: center;">Centered paragraph.</p>
+<pre>
+    a
+     b
+      c 
+    
+</pre>  <!--this pre tag keeps the as written format,  it also takes a lot of space for Enter between lines-->
+
+<p>An example of this technique appears in the movie "12&nbsp;Angry&nbsp;Men."</p>  <!--Nonbreaking Spaces is if we dont want space to break lines , instead the whole line is together-->
+
+<p>i am a paragraph with div tag.
+    <div>i am the div paragraph.</div>
+    <div>i am another div para</div>
+</p>
+
+<div>mfhjjj</div>
+<div><p>i am pp in div</p>
+    <p>i am also pp in div.</p>
+</div>
+<!--difference between <p> and <div> is <p> tag is specifically used for writing paragraphs in HTML. No other elements such as forms , nav bar etc. Could be added in paragraph. BUT “Div” also known as Division is simply a block container for other content.You can add inputs , forms , or even add <p> within div Tags.-->
+    <!-- <span> tag can be used inside <div> ,<p>, <h1> . like div can have some styles , and inside <span> can have diffrent style  -->
+
+<p><b>i am bold.</b><br><i>i am italic.</i><br><u>i am underlined</u><br><big>i am BIG</big><br><em>i am emphasized.</em><br><small>i am small.</small><br> <strike>i am crossed.</strike><br><strong>i am strong</strong><br><tt>i am teletype.</tt><br><mark>i am marked</mark><br><del>i am deleted</del><br><ins>i am inserted</ins><br>This is a <sub>subscript</sub><br>This is a <sup>superscript</sup><br><q>this is short quote</q></p>
+<p><bdo dir="rtl">This paragraph will go right-to-left.</bdo></p> <!-- ltr/rtl (bdo=bi-directional override.)-->
+<code>A piece of computer code</code><br>
+<samp>Sample output from a computer program</samp><br>
+<kbd>Keyboard input</kbd><br>
+<var>Variable</var>
+
+<p>The <abbr title="World Health Organization"> WHO </abbr> (hover on the WHO to see the abbreviation of it.)</p>
+<!-- dfn n abbr can be used togther. with title and id. id helps to refer back to a link -->
+
+<a href="#A">press here to go to LISTS</a> <!--using # before any id attribute value will take u to that place in the same webpage, see with id of LISTS-->
+<br>
+<a href="https://www.w3schools.com"
+target="_blank">This is a link</a> <!-- _blank/framename or _self or _top/_parent are attributes to target-->
+
+<div></div> <!--without this div, the image is going above the link-->
+<!--The alt attribute is also useful if the image does not exist-->
+<!--title attribute is used to show name when hovered on it. -->
+
+
+<img src="tas.jpg" title= "tasnianisaht" alt="TASNIANISHAT" width="500" height="142" border="1" align = "right"> <!--same thing can be done by using STYLE-->
+
+<figure>
+<img src="tas.jpg" title= "tasnianisaht" alt="TASNIANISHAT" style="width:500px;height:150px">
+<figcaption>Fig.1 - My Name , Tasnia. </figcaption>
+</figure> <!--figure tag adds some padding on the left side and makes it more meaningful an organized.-->
+
+
+<button type="submit" autofocus name="NameForButton" value="HTML">Click me</button> <!-- type can be button/reset/submit. Button can be configured by user, submit is for submiting data of form, reset sets all the controls to their initial values. one with no type or type=submit (the default) will submit in form-->
+<!-- autofocus/disabled -->
+<br>
+<button onclick="alert('Learn HTML')">
+        <img src="https://www.tutorialspoint.com/html/images/html-mini-logo.jpg"
+           alt="Learn HTML" height="80" width="100">
+     </button>
+
+<h3 id="A" >LISTS</h3>
+<!--<ul> (unordered/bullet list) or the <ol> (ordered/numbered list)-->
+<ul style="list-style-type:square">
+     <li>Coffee
+            <ul>
+                <li>aa</li>
+                <li>bb</li>
+                <li>cc</li>
+            </ul>
+     </li>
+
+     <!--here you see nested list can be made by placing small list before </li or after </li> of coffee. its does the same work-->
+<ul>
+  <li>dd</li>
+  <li>ee</li>
+  <li>ff</li>
+</ul>
+
+                
+
+    <li>Tea</li>
+    <li>Milk</li>
+ </ul>
+        <ol>
+                <li>Coffee</li>
+                <li>Tea</li>
+                <li>Milk</li>
+                </ol>      
+
+
+ <dl>  <!--its a description list, can be used for defining words-->
+    <dt>description term</dt>
+    <dd>- description of the term 1</dd>
+    <dd>- description of the term 1</dd>
+ </dl>               
+
+ <!--The value attribute sets the value of a list item. The following list items will increment from that number.
+
+The value must be a number and can only be used in ordered lists (<ol>).  -->
+
+
+ <ol>
+        <li value="100">Coffee</li>
+        <li>Tea</li>
+        <li>Milk</li>
+        <li>Water</li>
+        <li>Juice</li>
+        <li>Beer</li>
+      </ol> <!--same thing can be done by next one and reversed is used here-->
+<!-- type has 1,A,a,I(roman),i -->
+      <ol start="50" reversed type="1">
+            <li>Coffee</li>
+            <li>Tea</li>
+            <li>Milk</li>
+          </ol>
+
+
+ <!--  Contact information inside a <footer> element should go inside an <address> tag.<footer> element typically contains: authorship information,copyright information, contact information,sitemap,back to top links,
+related documents-->
+<footer>
+ <address>
+        Written by <a href="mailto:webmaster@example.com">Nishat</a>.<br> 
+        Visit us at:<br>
+        Example.com<br>
+        Box 564, Disneyland<br>
+        USA
+        </address>
+        </footer>
+<article>
+        <h3>Google Chrome</h3>
+        <p>Google Chrome is a free, open-source web browser developed by Google, released in 2008.</p>
+        </article>
+
+<aside>
+        <h4>Epcot Center</h4>
+        <p>The Epcot Center is a theme park in Disney World, Florida.</p>
+         </aside>
+              
+<audio controls loop> <!--loop/autoplay/muted--> <!-- poster="ear.jpg" can be used as a thumbnail for the video beside loop . preload??-->
+        
+         <source src="rec1.mp3" type="audio/mpeg"> <!--mpeg for mp3, mp4 for video-->
+        Your browser does not support the audio tag.
+        </audio> <!-- video in place of audio -->
+
+<blockquote cite="http://www.worldwildlife.org/who/index.html">
+            For 50 years, WWF has been protecting the future of nature. The world's leading conservation organization, WWF works in 100 countries and is supported by 1.2 million members in the United States and close to 5 million globally.
+         </blockquote>
+<p><cite>The Scream</cite> by Edvard Munch. Painted in 1893.</p> <!-- cite tag gives an italic look -->
+<!-- table alone doesnot give border to the table .
+caption tag is used in table-->
+<!-- tr=table row, th=table header, td=table data-->
+<!-- <col> is single column, <col span=> is no of columns we specify  -->
+<table border="1"  >
+    <caption>Monthly savings</caption>
+    <colgroup>
+        
+        <col style="background-color:yellow">
+        <col span="3" style="background-color:red">
+      </colgroup>
+    <thead>
+    <tr>
+      <th>Name</th>
+        <th>Month</th>
+        <th colspan="2">Savings</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr>
+      <td rowspan="2">nishat</td>
+        <td>January</td>
+        <td>$100</td>
+        <td>100</td>
+    </tr>
+    
+  
+            <tr>
+                    <td>february</td>
+                    <td>$200</td>
+                    <td>200</td>
+                </tr>
+    </tbody>
+    <!-- tfoot use korle problem kore-->
+</table>
+              
+<p>The following example displays product names but also associates each name with a product number:</p>
+
+<ul>
+  <li  type="square"><data value="21053">Cherry Tomato</data></li>
+  <li><data value="21054">Beef Tomato</data></li>
+  <li><data value="21055">Snack Tomato</data></li>
+</ul>
+<!-- The <details> tag specifies additional details that the user can view or hide on demand. The <summary> tag is used to specify a visible heading for the details. The heading can be clicked to view/hide the details. //OPen will keep the details part open, and let the user close it -->
+<details open>
+        <summary>Copyright 1999-2018.</summary>
+        <p> - by Refsnes Data. All Rights Reserved.</p>
+        <p>All content and graphics on this web site are the property of the company Refsnes Data.</p>
+      </details>
+ 
+
+
+<dialog open >This is an open dialog window</dialog>      
+
+<pre>
+
+
+
+</pre>
+<iframe src="https://www.w3schools.com">hhhfg
+    <p>Your browser does not support iframes.</p>
+  </iframe>
+<pre>
+
+
+    
+</pre>
+<!-- embed??? -->
+<embed src="https://www.youtube.com/watch?v=3RmEutKqxCk&list=PLfu_Bpi_zcDMooW7GuGxfk6Uh5dMF5W4T&index=11" width="200" height="200" style="border:1px solid">
+
+<pre>
+
+
+    
+</pre>    
+<img src="planets.gif" width="145" height="126" alt="Planets" usemap="#planetmap">
+
+    <map name="planetmap">
+      <area shape="rect" coords="0,0,82,126" alt="Sun" href="sun.htm">
+      <area shape="circle" coords="90,58,3" alt="Mercury" href="mercur.htm">
+      <area shape="circle" coords="124,58,8" alt="Venus" href="venus.htm">
+    </map>
+
+    <p>Display a gauge:</p>
+<p>Anna's score: <meter min="0" low="40" high="90" max="100" value="95"></meter></p>
+<p>Peter's score: <meter min="0" low="40" high="90" max="100" value="50"></meter></p>
+<p>Linda's score: <meter min="0" low="40" high="90" max="100" value="30"></meter></p>
+<pre>
+</pre>   
+Downloading progress:
+<progress value="22" max="100">
+</progress>
+<pre>
+  </pre> 
+
+<!--The <select> element is used to create a drop-down list. optgroup=group related options in a drop-down list. value and lebel does the ame thing, but label is not supported in firefox
+*autofocus, disabled, form, multiple,name, required, size (how mane visble options).
+Hold down the Ctrl (windows) / Command (Mac) button to select multiple options.
+-->
+<select name="CARS" size="3">
+        <optgroup label="Swedish Cars"> <!-- optgroup can be disabled -->
+          <option label="Volvos">Volvo (Latin for "I roll")</option>
+          <option value="saab">Saab</option> <!-- option can be diisabled, selected -->
+        </optgroup>
+        <optgroup label="German Cars" disabled>
+          <option value="mercedes">Mercedes</option>
+          <option value="audi">Audi</option>
+        </optgroup>
+        <option label="Volva" selected >Volva (Latin for "I roll")
+      </select>
+       
+      <pre>  list and datalist select </pre> 
+   
+<input list="browsers" name="browser1">
+  <datalist id="browsers">
+    <option value="Internet Explorer">
+    <option value="Firefox">
+    <option value="Chrome">
+    <option value="Opera">
+    <option value="Safari">
+  </datalist>
+
+
+  <pre>   </pre> 
+<p style="font-size:200%">FORM</p> 
+<!-- form> element can contain one or more of the following form elements:<input><textarea><button><select><option><optgroup><fieldset><label><output>.
+*GET  : The length of a URL is limited (about 3000 characters)
+Never use GET to send sensitive data! (will be visible in the URL)
+
+*POST : data is not shown is in URL)
+Has no size limitations
+Form submissions with POST cannot be bookmarked
+
+*method : specifies how the data will be sent.
+* action : specifies where the data will be send.
+*target : _blank,_self,_parent,_top : specifies where the response will be shown after submitting the form.
+*name : name of the form.
+-->   
+
+<form action="subcripe.php" method="GET" target="_blank" id="form1">
+
+    <fieldset name="fff" form="form2" disabled>
+        <legend>Personal:</legend>
+       Date of birth: <input type="text">
+      </fieldset>
+
+  First name: <input type="text" name="FirstName" value="Mickey"><br>
+  Last name: <input type="text" name="LastName" value="Mouse"><br>
+  Password: <input type="password" name="P1">
+  <input type="submit" value="Submit" name="S1">
+  <!-- S1 can be used to check if submit button was clicked if needed -->
+
+</form>
+
+<pre>   </pre> 
+<p style="font-size:200%">Types of INPUT</p>  
+
+**********<input type="button" value="Click me" autofocus ><br>
+<!-- autofocus is used -->
+*******<input type="checkbox" name="vehicle1" value="Bike" checked> I have a bike<br>
+
+Birthday: <input type="date" name="bday"><br>
+
+E-mail: <input type="email" name="emailaddress"><br>
+
+*********??(hidden field is here)<input type="hidden" id="custId" name="custId" value="3487"><br> <!-- the hidden input field is not shown to the user, but the data is sent when the form is submitted. -->
+
+*******???<input type="image" src="" alt="Submit"><br>
+
+Select a file: <input type="file" name="myFile" disabled ><br>
+<!-- disabled is used  -->
+Select an image: <input type="file" name="myFile1" accept="image/*" multiple ><br>
+<!--accept	: file_extension,audio/*,video/*,image/*,media_type,image/jpeg
+multiple is used-->
+
+Birthday (month and year): <input type="month" name="bdaymonth"><br>
+
+Quantity (between 1 and 5): <input type="number" name="quantity" min="1" max="5"><br>
+
+********<input type="radio" name="gender" value="male"> Male<br>
+
+<input type="range" name="points" min="0" max="10"><br>
+
+Add your homepage: <input type="url" name="homepage"><br>
+
+Search Google: <input type="search" q="googlesearch"><br>
+
+Select a time: <input type="time" name="usr_time"><br>
+
+First name: <input type="text" name="fname" required form="form1" size="5" ><br>
+<!-- required is used -->
+Telephone: <input type="tel" name="usrtel" maxlength="11" placeholder="mobile here..."><br> <!-- maxlength is used -->
+
+Select a week: <input type="week" name="week_year"><br>
+
+<textarea rows="4" cols="50" name="sen1" placeholder="Describe yourself here...">
+    
+    </textarea> <!-- but its size is changeable with mouse -->
+
+<br>
+
+
+    <label for="choice1ID">Choice 1</label>
+    <input type="checkbox" name="choice1" id="choice1ID"/>
+
+ <!--<script src="learnjs.js">
+ 
+ </script>
+-->
+</body>
+</html>
+<!--this is how to comment in html, press c then ENTER to egt it -->
+<!--write ! and press TAB , to get the html layout easily-->
+<!--go to <area> for more-->
+<!-- In HTML, <input type="button" /> is used to create buttons in an HTML form. Inside the <button> tag, you can place content like text or images. But, this is not the case with the buttons created with <input> tag. 
+2. A button can have a separate value as data, while for an input the data and button text are always the same:
+
+<input type="button" value="Button Text">  --Form data will be "Button Text"
+<button type="button" value="Data">Button Text</button>-->
+
+<!-- more on buttons for form w3-->
+<!-- STYLE has 1. background-color: 2. color: 3. font-family: 4. text-align: 5. font-size: 6. -->
+<!-- <canvas> from JS -->
+<!-- <center> is not supported in html5!! -->
+<!-- valign?? -->   
+<!-- data , datalists tag? area ,meta, output,template,track--> 
+<!-- The <main> tag specifies the main content of a document. There must not be more than one <main> element in a document. The <main> element must NOT be a descendant of an <article>, <aside>, <footer>, <header>, or <nav> element. It can hold others-->
+<!-- An image-map is an image with clickable areas. The <map> element contains a number of <area> elements, that defines the clickable areas in the image map.In HTML5, if the id attribute of the <map> tag is also specified, it must have the same value as the name attribute.
+*The required name attribute of the <map> element is associated with the <img>'s usemap attribute and creates a relationship between the image and the map.
+-->
+<!--word break opportunities=<wbr>
+Try to shrink the browser window, to view how the very long word in the paragraph below will break:
+
+<p>This is a veryveryveryveryveryveryveryveryveryveryveryvery<wbr>longwordthatwillbreakatspecific<wbr>placeswhenthebrowserwindowisresized.</p>
+??<form name="frmSeguimiento" id="frmSeguimiento" method="post" action="proc_seguimiento.php">  
+    <input type="hidden" name="accion" id="accion"/> why same name n id
+-->
